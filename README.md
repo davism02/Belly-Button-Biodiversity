@@ -1,14 +1,11 @@
-# Plot.ly Homework - Belly Button Biodiversity
+# Exploring Belly Button Biodiversity via an Interactive Dashboard
 
-![Bacteria by filterforge.com](Images/bacteria.jpg)
+#Summary:
 
-In this assignment, you will build an interactive dashboard to explore the [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/), which catalogs the microbes that colonize human navels.
+The purpose of this project is to create an interactive dashboard that allows the user to explore belly button biodiversity dataset, which catalogs the microbes that colonize human navels. The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
-
-## Step 1: Plotly
-
-1. Use the D3 library to read in `samples.json`.
+##Tools Used: D3, Plotly, Bootstrap
+[Link for interactive dashboard:](https://davism02.github.io/Belly-Button-Biodiversity/)
 
 2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
 
@@ -70,16 +67,4 @@ The following task is advanced and therefore optional.
 
 * Refer to the [Plotly.js documentation](https://plot.ly/javascript/) when building the plots.
 
-## Rubric
 
-[Unit 14 Rubric - Plot.ly Homework - Belly Button Biodiversity](https://docs.google.com/document/d/1wD_hOEJELD2hifTaECfx66xlpEdJeYm3mL8q2Zoq1vo/edit?usp=sharing)
-
-- - -
-
-## References
-
-Hulcr, J. et al.(2012) _A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable_. Retrieved from: [http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
-
-- - -
-
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.

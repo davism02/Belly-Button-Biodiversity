@@ -98,8 +98,8 @@ function buildPlot(){
 
         //create the layout for the bubble chart
         var layout2 = {
-            title : 'Marker Size',
-            showlegend : false, 
+            title : 'OTU ID',
+            showlegend : true, 
         }
 
         //plot plot plot with plotly
