@@ -99,13 +99,13 @@ function buildPlot(){
         //create the layout for the bubble chart
         var layout2 = {
             title : 'OTU ID',
-            showlegend : true, 
+            showlegend : false, 
         }
 
         //plot plot plot with plotly
         Plotly.newPlot('bubble', data2, layout2)
         console.log(filteredID)
-        gauge()
+        gauge(filteredMeta[0].wfreq)
     });
 };
 
